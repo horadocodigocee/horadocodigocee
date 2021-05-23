@@ -1,0 +1,58 @@
+.logo {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    text-align: center;
+    background-color: #1E2952;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#menu:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.menu li{
+    position:relative;
+}
+
+.menu li a{text-decoration:none; color: white; display:block;}
+
+.menu li a:visited{color: white;}
+
+.menu li a:hover{color:turquoise}
+
+.menu li  ul{
+    background-color:#fff;
+    display:none;
+    background-color: #1E2952;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+    display:inline;
+    width:100%;
+}
+
+.txt {
+    text-align: center;
+    font-size: 30px;
+    color: #1E2952;
+    padding: 30px;
+    font-weight: bolder;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1E2952;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center; 
+}
+
